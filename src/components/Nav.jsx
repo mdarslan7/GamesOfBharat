@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="navbar bg-base-100">
       <div className="flex-1">
         <img className='logo' src={logo} alt="games of bharat logo" />
-        <h1 style={{fontSize: '50px', fontFamily: 'sans-serif', fontWeight: 'bold'}}>Games of Bharat</h1>
+        <h1 style={{fontSize: '40px', fontWeight: 'bolder'}}>Games of Bharat</h1>
       </div>
       <div className="flex-1 flex items-center justify-center">
         <a href="#" className="navbar-link ml-10 mr-10 text-base">Home</a>
