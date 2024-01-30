@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+
+.logo {
+    width: 8rem; 
+    height: auto; 
+    margin-right: 16px; 
+  }
