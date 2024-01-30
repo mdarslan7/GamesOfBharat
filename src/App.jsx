@@ -1,15 +1,6 @@
 import './App.css';
-// import CarouselGob from './components/CarouselGob';
 import Navbar from './components/Nav';
 import carouselImg from './components/images/carousel.png';
-import {Carousel} from '3d-react-carousal';
-
-let slides = [
-  <img  src="https://picsum.photos/800/300/?random" alt="1" />,
-  <img  src="https://picsum.photos/800/301/?random" alt="2" />  ,
-  <img  src="https://picsum.photos/800/302/?random" alt="3" />  ,
-  <img  src="https://picsum.photos/800/303/?random" alt="4" />  ,
-  <img src="https://picsum.photos/800/304/?random" alt="5" />   ];
 
 function App() {
 
@@ -28,10 +19,6 @@ function App() {
         <a href="#item1" className="btn btn-xs"></a> 
       </div>
       </div>
-
-    <div>
-      <Carousel slides={slides} autoplay={false} interval={1000}/>
-    </div>
 
     </>
   )
